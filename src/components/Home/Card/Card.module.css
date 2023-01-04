@@ -1,0 +1,14 @@
+.Card {
+  position: relative;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.Card h2 {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 1em;
+  color: var(--secondary);
+}

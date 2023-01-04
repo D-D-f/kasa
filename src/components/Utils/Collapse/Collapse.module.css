@@ -1,0 +1,38 @@
+.containerCollapse {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  margin-top: 80px;
+}
+
+.Collapse {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary);
+  color: var(--white);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.description {
+  background-color: var(--secondary);
+  color: var(--primary);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+i {
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+  .containerCollapse {
+    width: 100%;
+  }
+}

@@ -1,0 +1,31 @@
+.NotFound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.NotFound h2 {
+  font-size: 288px;
+  color: var(--primary);
+}
+
+.NotFound p {
+  font-size: 36px;
+  color: var(--primary);
+}
+
+.accueil {
+  color: var(--primary);
+  margin-top: 182px;
+  margin-bottom: 159px;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .NotFound h2 {
+    font-size: 200px;
+  }
+  .NotFound p {
+    font-size: 26px;
+  }
+}

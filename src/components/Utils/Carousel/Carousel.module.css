@@ -1,0 +1,26 @@
+.Carousel {
+  border-radius: 25px;
+  height: 415px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.chevron {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Carousel i {
+  font-size: 50px;
+  color: var(--white);
+}
+
+.Carousel i:first-child {
+  padding-left: 10px;
+}
+
+.Carousel i:last-child {
+  padding-right: 10px;
+}

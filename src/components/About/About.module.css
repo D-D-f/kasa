@@ -1,0 +1,18 @@
+.images {
+  background-image: url("../../assets/img/bg-about-desktop.png");
+  background-size: cover;
+  background-position: center;
+  height: 223px;
+  border-radius: 25px;
+  margin-bottom: 57px;
+}
+
+.collapses {
+  margin-bottom: 380px;
+}
+
+@media screen and (max-width: 768px) {
+  .images {
+    background-image: url("../../assets/img/bg-about-mobile.png");
+  }
+}

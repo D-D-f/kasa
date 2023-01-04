@@ -1,0 +1,6 @@
+.Rating {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  width: 100%;
+}
