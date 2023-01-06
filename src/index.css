@@ -12,3 +12,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html,
+body,
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
